@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Afrina Zhafirah | Project Management &amp; Digital Strategy</title>
+  <meta name="description" content="Portfolio of Afrina Zhafirah, a Business Management graduate in Jakarta with experience in IT project management and digital strategy.">
+  <meta property="og:title" content="Afrina Zhafirah | Project Management &amp; Digital Strategy">
+  <meta property="og:description" content="Bringing structure to complex projects: IT project management, digital strategy and business process improvement.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#260B13">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__mark" href="#top">Afrina Zhafirah</a>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <nav id="navLinks" class="nav__links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Selected Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <svg class="hero__lines" viewBox="0 0 1000 620" preserveAspectRatio="xMaxYMid slice" aria-hidden="true">
+        <g class="orbits">
+          <circle cx="690" cy="240" r="170"/><circle cx="690" cy="240" r="290"/><circle cx="690" cy="240" r="430"/>
+          <ellipse cx="690" cy="240" rx="430" ry="120" transform="rotate(-18 690 240)"/>
+          <path d="M690 0V480M250 240H1000"/>
+        </g>
+        <g class="bars">
+          <path d="M120 96H520"/><path d="M360 176H780"/><path d="M280 256H640"/>
+          <path d="M520 336H960"/><path d="M640 416H880"/><path d="M430 496H720"/>
+        </g>
+        <g class="nodes">
+          <circle cx="520" cy="96" r="4"/><circle cx="780" cy="176" r="4"/><circle cx="640" cy="256" r="4"/>
+          <circle cx="880" cy="416" r="4"/><circle cx="720" cy="496" r="4"/>
+        </g>
+      </svg>
+      <div class="wrap hero__body">
+        <p class="mono hero__tag"><span>Project Management · Digital Strategy</span><span>Jakarta, Indonesia</span></p>
+        <div class="hero__top">
+          <img class="chrome" src="assets/chrome.png" alt="" width="900" height="900" aria-hidden="true">
+          <h1 class="hero__name"><span>Afrina</span> <em>Zhafirah</em></h1>
+          <!-- Portrait: save your photo as assets/portrait.jpg and it replaces this placeholder. -->
+          <figure class="portrait">
+            <figcaption class="mono">Portrait placeholder</figcaption>
+            <img src="assets/portrait.jpg" alt="Portrait of Afrina Zhafirah" onerror="this.remove()">
+          </figure>
+        </div>
+        <div class="hero__foot">
+          <div>
+            <p class="hero__headline">Bringing structure to complex projects.</p>
+          </div>
+          <div>
+            <p class="hero__intro">Business Management graduate with experience in IT project management and digital strategy, and a strong interest in digital product development and business process improvement.</p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#work">Explore My Work</a>
+              <a class="btn btn--ghost" href="resume.html">View Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="hero__scroll mono" href="#about">Scroll<span aria-hidden="true"></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="sec sec--ivory" id="about">
+      <div class="wrap about">
+        <p class="label reveal"><span>01</span> About</p>
+        <h2 class="display reveal">Keeping projects documented, on schedule and <em>visible</em> to the people who decide.</h2>
+        <div class="about__text reveal">
+          <p>I studied Business Management at Universitas Bina Nusantara and started in project delivery during my degree, as a PMO intern on the Telkomsel Digital World project at PT Phincon. There I supported two Scrum teams through planning, tracking and documentation.</p>
+          <p>Roles in account management and campaign strategy followed, where I learned to work from client objectives and market data. I then returned to IT projects as a Project Management Officer at PT Mandiri Utama Finance.</p>
+          <p>My work now sits between governance and tooling: making sure documentation and timelines hold up, then improving Jira, eazyBI and dashboards when the process needs more than they offer. I'm especially interested in digital product development and business process improvement, and I'm beginning to explore product strategy.</p>
+        </div>
+        <dl class="facts reveal">
+          <div><dt>Focus</dt><dd>Governance, reporting, requirements, automation</dd></div>
+          <div><dt>Methods</dt><dd>Agile &amp; Waterfall</dd></div>
+          <div><dt>Languages</dt><dd>Bahasa Indonesia (native), English (professional working)</dd></div>
+          <div><dt>Based in</dt><dd>Jakarta, Indonesia</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="sec sec--ivory" id="experience">
+      <div class="wrap">
+        <p class="label reveal"><span>02</span> Experience</p>
+        <h2 class="display reveal">A career, plotted the way I'd plot a <em>project</em>.</h2>
+        <figure class="gantt reveal" aria-labelledby="ganttCap">
+          <div id="gantt" class="gantt__chart"></div>
+          <figcaption id="ganttCap" class="mono">Timeline of study and roles, using the dates in my CV</figcaption>
+        </figure>
+
+        <div class="timeline">
+          <article class="role reveal">
+            <p class="role__date mono">Aug 2025 – Present</p>
+            <div>
+              <h3>Project Management Officer</h3>
+              <p class="role__co">PT Mandiri Utama Finance</p>
+              <p class="role__sum">I keep a portfolio of 243 IT projects complete and on schedule, and turn project status into reporting for leadership.</p>
+              <ul class="chips"><li>243 projects tracked</li><li>25+ eazyBI reports</li></ul>
+              <details open>
+                <summary>Responsibilities &amp; tools</summary>
+                <ul class="ticks">
+                  <li>Ensure projects have complete, fully signed BRD, UAT sign-off and Technical Acceptance Test documents, and track PM-set timelines, progress percentages and upcoming or overdue milestones.</li>
+                  <li>Develop and standardize project documentation templates.</li>
+                  <li>Maintain Jira workflows, automation rules and validation rules, translating user requirements into enhancements.</li>
+                  <li>Monitor project budgets and coordinate payment requests with Finance, consolidating POs, invoices, tax invoices and payment records.</li>
+                  <li>Lead pre- and post-deployment meetings and follow up on outstanding items.</li>
+                  <li>Deliver monthly Board of Management presentations, weekly status presentations, Minutes of Meeting and monthly project capitalization reports.</li>
+                  <li>Develop a Python-based web dashboard that gives IT teams and stakeholders project visibility beyond Jira license limits.</li>
+                </ul>
+                <p class="tools mono">Jira · eazyBI · Python · Microsoft Office</p>
+              </details>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role__date mono">Jul 2024 – May 2025</p>
+            <div>
+              <h3>Project Strategic</h3>
+              <p class="role__co">BERT's</p>
+              <p class="role__sum">I built proposals and campaign strategy, then coordinated campaigns from requirement gathering through to publication.</p>
+              <ul class="chips"><li>90 proposal decks</li><li>Contributed to 12 deals</li><li>IDR 89M total revenue</li></ul>
+              <details>
+                <summary>Responsibilities &amp; tools</summary>
+                <ul class="ticks">
+                  <li>Prepared campaign concepts, budget projections and recommendations from client objectives, market research and competitor benchmarking.</li>
+                  <li>Enhanced Instagram performance forecasting for Reels and Feed with additional data and insights.</li>
+                  <li>Streamlined KOL selection for Skin1004 SBD and Year-End campaigns, supporting 10 successful deals across Micro, Macro and Mega tiers.</li>
+                  <li>Coordinated requirements, timelines, KOL briefing, content review, revisions and publication.</li>
+                  <li>Managed client communication and stakeholder coordination to meet agreed scope and timeline.</li>
+                </ul>
+                <p class="tools mono">Market research · Competitor benchmarking · Budget projection · Forecasting</p>
+              </details>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role__date mono">Mar 2024 – Jun 2024</p>
+            <div>
+              <h3>Account Management Intern</h3>
+              <p class="role__co">Magnus Digital Indonesia</p>
+              <p class="role__sum">I supported accounts across industries, coordinating client requests with the Analytics, SEO, Paid Ads and Creative teams.</p>
+              <ul class="chips"><li>5 clients supported</li><li>~60 SEO articles reviewed</li></ul>
+              <details>
+                <summary>Responsibilities &amp; tools</summary>
+                <ul class="ticks">
+                  <li>Coordinated client requests and project deliverables to meet agreed timelines.</li>
+                  <li>Collaborated across teams on digital marketing strategies aligned with client objectives.</li>
+                  <li>Reviewed articles for content quality, editorial plans and SEO requirements.</li>
+                  <li>Presented campaign plans, performance reports and post-campaign analyses against KPIs.</li>
+                  <li>Coordinated revisions and followed up on client feedback before final delivery.</li>
+                </ul>
+                <p class="tools mono">Campaign planning · KPI reporting · SEO review</p>
+              </details>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <p class="role__date mono">Feb 2023 – Feb 2024</p>
+            <div>
+              <h3>Project Management Officer Intern</h3>
+              <p class="role__co">PT Phincon · Telkomsel Digital World Project</p>
+              <p class="role__sum">I coordinated two Scrum teams of about 15 people, working closely with Developers, Product Owners and QA.</p>
+              <ul class="chips"><li>21 sprints completed</li><li>2 Scrum teams, ~15 members</li></ul>
+              <details>
+                <summary>Responsibilities &amp; tools</summary>
+                <ul class="ticks">
+                  <li>Facilitated daily Scrum meetings and organized Sprint Planning, Demos and Retrospectives.</li>
+                  <li>Maintained Gantt timelines, tracked daily progress and monitored sprints through Kanban boards.</li>
+                  <li>Monitored development and QA testing, followed up on pending tasks and addressed blockers.</li>
+                  <li>Prepared Software Requirements Specifications, Impact Analysis and User Testing Sign-offs.</li>
+                </ul>
+                <p class="tools mono">Scrum · Kanban · Gantt charts · SRS · Impact Analysis</p>
+              </details>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="sec sec--dark" id="work">
+      <div class="wrap">
+        <p class="label reveal"><span>03</span> Selected Work</p>
+        <div class="work__head">
+          <h2 class="display reveal">Five pieces of work, and how they <em>came together</em>.</h2>
+          <p class="note reveal">All are professional work delivered with teams. Diagrams are illustrative and contain no company data.</p>
+        </div>
+        <div class="filters reveal" role="group" aria-label="Filter projects by category">
+          <button aria-pressed="true" data-filter="all">All</button>
+          <button aria-pressed="false" data-filter="pmo">Project Management &amp; PMO</button>
+          <button aria-pressed="false" data-filter="reporting">Reporting &amp; Analytics</button>
+          <button aria-pressed="false" data-filter="automation">Workflow Automation</button>
+          <button aria-pressed="false" data-filter="strategy">Digital Strategy</button>
+        </div>
+
+        <div class="cases" id="cases">
+          <details class="case reveal" data-cat="pmo reporting">
+            <summary>
+              <span class="case__no mono">01</span>
+              <span class="case__title"><strong>Governing a 243-project portfolio</strong><small>Complete documents, tracked milestones, leadership reporting</small></span>
+              <span class="case__org mono">PT Mandiri Utama Finance</span>
+              <span class="case__plus" aria-hidden="true"></span>
+            </summary>
+            <div class="case__body">
+              <div class="case__fig">
+                <svg viewBox="0 0 320 200" role="img" aria-label="Illustrative diagram: documents pass through three sign-off gates">
+                  <path class="ln" d="M20 100H300"/>
+                  <g class="gate"><circle cx="70" cy="100" r="22"/><circle cx="160" cy="100" r="22"/><circle cx="250" cy="100" r="22"/></g>
+                  <g class="tx"><text x="70" y="104">BRD</text><text x="160" y="104">UAT</text><text x="250" y="104">TAT</text></g>
+                </svg>
+                <p class="mono">Illustrative</p>
+              </div>
+              <dl class="study">
+                <div><dt>Context</dt><dd>A PMO portfolio of 243 projects, with timelines set by project managers and leadership needing regular status.</dd></div>
+                <div><dt>Challenge</dt><dd>Every project needs complete, fully signed BRD, UAT and TAT documents while staying on schedule.</dd></div>
+                <div><dt>Approach</dt><dd>Standardized documentation templates, then tracked timelines, progress percentages and milestones consistently.</dd></div>
+                <div><dt>Execution</dt><dd>I follow up on upcoming and overdue milestones, lead pre- and post-deployment meetings, and coordinate budget and payment records with Finance.</dd></div>
+                <div><dt>Outcome</dt><dd>A regular reporting rhythm: monthly Board of Management presentations, weekly status presentations, MoM with follow-ups and monthly capitalization reports.</dd></div>
+                <div><dt>My role</dt><dd>Project Management Officer</dd></div>
+                <div><dt>Tools</dt><dd>Jira, eazyBI, Microsoft Office</dd></div>
+              </dl>
+            </div>
+          </details>
+
+          <details class="case reveal" data-cat="reporting automation">
+            <summary>
+              <span class="case__no mono">02</span>
+              <span class="case__title"><strong>Project visibility beyond Jira licenses</strong><small>25+ eazyBI reports and a Python web dashboard</small></span>
+              <span class="case__org mono">PT Mandiri Utama Finance</span>
+              <span class="case__plus" aria-hidden="true"></span>
+            </summary>
+            <div class="case__body">
+              <div class="case__fig">
+                <svg viewBox="0 0 320 200" role="img" aria-label="Illustrative diagram: Jira data flows into eazyBI reports and a web dashboard">
+                  <path class="ln" d="M96 100C140 100 140 56 190 56M96 100C140 100 140 144 190 144"/>
+                  <g class="box"><rect x="20" y="78" width="76" height="44"/><rect x="190" y="34" width="110" height="44"/><rect x="190" y="122" width="110" height="44"/></g>
+                  <g class="tx"><text x="58" y="104">Jira</text><text x="245" y="60">eazyBI</text><text x="245" y="148">Dashboard</text></g>
+                </svg>
+                <p class="mono">Illustrative</p>
+              </div>
+              <dl class="study">
+                <div><dt>Context</dt><dd>IT teams and project stakeholders need project visibility, including people without a Jira license.</dd></div>
+                <div><dt>Challenge</dt><dd>Jira license limits, plus reporting gaps in both Jira and eazyBI.</dd></div>
+                <div><dt>Approach</dt><dd>Use eazyBI where it fits, and build a separate web layer where it doesn't.</dd></div>
+                <div><dt>Execution</dt><dd>I develop and maintain 25+ custom eazyBI for Jira reports, and a Python-based web dashboard for IT teams and stakeholders.</dd></div>
+                <div><dt>Outcome</dt><dd>Monitoring and reporting supported by 25+ custom reports, with a dashboard designed to provide visibility without Jira license limits.</dd></div>
+                <div><dt>My role</dt><dd>Project Management Officer; report and dashboard developer</dd></div>
+                <div><dt>Tools</dt><dd>Jira, eazyBI, Python</dd></div>
+              </dl>
+            </div>
+          </details>
+
+          <details class="case reveal" data-cat="automation pmo">
+            <summary>
+              <span class="case__no mono">03</span>
+              <span class="case__title"><strong>Shaping Jira around the process</strong><small>Adapting existing workflows, with new validations and rules</small></span>
+              <span class="case__org mono">PT Mandiri Utama Finance</span>
+              <span class="case__plus" aria-hidden="true"></span>
+            </summary>
+            <div class="case__body">
+              <div class="case__fig">
+                <svg viewBox="0 0 320 200" role="img" aria-label="Illustrative diagram: an existing Jira workflow with a step changed for user needs, plus a new validation and a new automation rule attached to its transitions">
+                  <path class="ln" d="M74 68H238"/>
+                  <path class="ln ln--d" d="M156 68V112H110V140M232 68V140"/>
+                  <g class="box"><rect x="10" y="50" width="64" height="36"/><rect x="86" y="50" width="64" height="36"/><rect x="238" y="50" width="64" height="36"/><rect class="new" x="162" y="50" width="64" height="36"/></g>
+                  <g class="box"><rect x="50" y="140" width="120" height="36"/><rect x="180" y="140" width="120" height="36"/></g>
+                  <g class="tx"><text x="42" y="72">To Do</text><text x="118" y="72">Doing</text><text class="on-gold" x="194" y="72">Changed</text><text x="270" y="72">Done</text><text x="110" y="162">+ Validation</text><text x="240" y="162">+ New rule</text><text x="156" y="28">Existing workflow</text></g>
+                </svg>
+                <p class="mono">Illustrative</p>
+              </div>
+              <dl class="study">
+                <div><dt>Context</dt><dd>Project management processes run through Jira, and users bring requirements the standard setup doesn't cover.</dd></div>
+                <div><dt>Challenge</dt><dd>Improving the process while working around system limitations.</dd></div>
+                <div><dt>Approach</dt><dd>Start from the existing workflow and what users need from it, then change only what the process requires.</dd></div>
+                <div><dt>Execution</dt><dd>I adjust existing Jira workflows to fit user needs, and add new validations and automation rules where they're required.</dd></div>
+                <div><dt>Outcome</dt><dd>Workflows, validations and automation rules that follow how project management processes actually run.</dd></div>
+                <div><dt>My role</dt><dd>Project Management Officer; Jira workflow maintainer</dd></div>
+                <div><dt>Tools</dt><dd>Jira, including JQL</dd></div>
+              </dl>
+            </div>
+          </details>
+
+          <details class="case reveal" data-cat="pmo">
+            <summary>
+              <span class="case__no mono">04</span>
+              <span class="case__title"><strong>Telkomsel Digital World: 21 sprints</strong><small>Coordinating two Scrum teams as a PMO intern</small></span>
+              <span class="case__org mono">PT Phincon</span>
+              <span class="case__plus" aria-hidden="true"></span>
+            </summary>
+            <div class="case__body">
+              <div class="case__fig">
+                <svg viewBox="0 0 320 200" role="img" aria-label="Illustrative diagram: repeating sprint cycles along a line">
+                  <path class="ln" d="M20 100H300"/>
+                  <path class="ln ln--b" d="M30 100a30 30 0 0 1 60 0a30 30 0 0 1 -60 0M100 100a30 30 0 0 1 60 0a30 30 0 0 1 -60 0M170 100a30 30 0 0 1 60 0a30 30 0 0 1 -60 0M240 100a30 30 0 0 1 60 0a30 30 0 0 1 -60 0"/>
+                  <g class="tx"><text x="60" y="160">Plan</text><text x="130" y="160">Build</text><text x="200" y="160">Demo</text><text x="270" y="160">Retro</text></g>
+                </svg>
+                <p class="mono">Illustrative</p>
+              </div>
+              <dl class="study">
+                <div><dt>Context</dt><dd>Two Scrum teams of about 15 members, with Developers, Product Owners and QA.</dd></div>
+                <div><dt>Challenge</dt><dd>Keeping teams aligned and deliverables on schedule across sprints.</dd></div>
+                <div><dt>Approach</dt><dd>Daily Scrum, Sprint Planning, Demos and Retrospectives, backed by Gantt timelines and Kanban boards.</dd></div>
+                <div><dt>Execution</dt><dd>I tracked development and QA progress, followed up on pending tasks, addressed blockers and maintained SRS, Impact Analysis and User Testing Sign-offs.</dd></div>
+                <div><dt>Outcome</dt><dd>Contributed to the successful completion of 21 sprints.</dd></div>
+                <div><dt>My role</dt><dd>Project Management Officer Intern</dd></div>
+                <div><dt>Tools</dt><dd>Scrum, Kanban, Gantt charts</dd></div>
+              </dl>
+            </div>
+          </details>
+
+          <details class="case reveal" data-cat="strategy">
+            <summary>
+              <span class="case__no mono">05</span>
+              <span class="case__title"><strong>Proposals and KOL strategy</strong><small>90 decks, 12 deals closed with the team, IDR 89M revenue</small></span>
+              <span class="case__org mono">BERT's</span>
+              <span class="case__plus" aria-hidden="true"></span>
+            </summary>
+            <div class="case__body">
+              <div class="case__fig">
+                <svg viewBox="0 0 320 200" role="img" aria-label="Illustrative diagram: three influencer tiers, Micro, Macro and Mega">
+                  <g class="gate"><circle cx="70" cy="110" r="22"/><circle cx="150" cy="110" r="36"/><circle cx="250" cy="110" r="52"/></g>
+                  <g class="tx"><text x="70" y="114">Micro</text><text x="150" y="114">Macro</text><text x="250" y="114">Mega</text></g>
+                </svg>
+                <p class="mono">Illustrative</p>
+              </div>
+              <dl class="study">
+                <div><dt>Context</dt><dd>Proposal and campaign work across multiple community categories, including Skin1004 SBD and Year-End campaigns.</dd></div>
+                <div><dt>Challenge</dt><dd>Matching concepts, budgets and KOL choices to each client's objectives.</dd></div>
+                <div><dt>Approach</dt><dd>Market research, competitor benchmarking and Instagram performance forecasting for Reels and Feed.</dd></div>
+                <div><dt>Execution</dt><dd>I developed proposal decks and budget projections, streamlined KOL selection, and coordinated briefing, content review, revisions and publication.</dd></div>
+                <div><dt>Outcome</dt><dd>90 proposal decks, contributing to 12 closed deals worth IDR 89 million in total revenue; KOL selection supported 10 successful deals across tiers.</dd></div>
+                <div><dt>My role</dt><dd>Project Strategic</dd></div>
+                <div><dt>Tools</dt><dd>Market research, benchmarking, forecasting</dd></div>
+              </dl>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="sec sec--sand" id="skills">
+      <div class="wrap">
+        <p class="label reveal"><span>04</span> Skills &amp; Tools</p>
+        <h2 class="display reveal">No percentages. Select a skill to see <em>where it was used</em>.</h2>
+        <div class="skills reveal">
+          <div class="skills__groups" id="skillGroups">
+            <div><h3 class="mono">Project Management</h3>
+              <button data-e="Tracking PM-set timelines, progress and milestones across 243 projects at PT Mandiri Utama Finance.">Project Management</button>
+              <button data-e="Gantt timelines and sprint planning support on the Telkomsel Digital World project.">Project Planning</button>
+              <button data-e="Ensuring fully signed BRD, UAT and TAT documents, and standardizing templates.">Project Governance</button>
+              <button data-e="Board of Management and weekly status presentations, MoM and capitalization reports.">Monitoring &amp; Reporting</button>
+            </div>
+            <div><h3 class="mono">Documentation &amp; Requirements</h3>
+              <button data-e="Gathering user requirements and translating them into Jira enhancements; requirement gathering for campaigns at BERT's.">Business Requirements Analysis</button>
+              <button data-e="BRD, UAT sign-off, TAT, SRS, Impact Analysis and User Testing Sign-offs.">Project Documentation</button>
+            </div>
+            <div><h3 class="mono">Coordination</h3>
+              <button data-e="Leadership reporting, and client communication at BERT's and Magnus Digital Indonesia.">Stakeholder Management</button>
+              <button data-e="Developers, POs and QA at Phincon; Analytics, SEO, Paid Ads and Creative at Magnus; Finance at Mandiri Utama Finance.">Cross-functional Collaboration</button>
+              <button data-e="Monitoring project budgets and consolidating POs, invoices, tax invoices and payment records with Finance.">Budget &amp; Financial Tracking</button>
+              <button data-e="Addressing sprint blockers, and building solutions to overcome system limitations in Jira.">Problem Solving</button>
+            </div>
+            <div><h3 class="mono">Technical Tools</h3>
+              <button data-e="Workflows, automation rules, validation rules and JQL at PT Mandiri Utama Finance.">Jira &amp; JQL</button>
+              <button data-e="25+ custom eazyBI for Jira reports for project monitoring and reporting.">eazyBI</button>
+              <button data-e="A Python-based web dashboard for IT teams and project stakeholders.">Python</button>
+              <button data-e="Listed as a technical skill in my CV.">Microsoft Project</button>
+              <button data-e="Listed as a technical skill in my CV.">Microsoft Visio</button>
+              <button data-e="Listed as a technical skill in my CV.">Office Timeline</button>
+              <button data-e="Excel, Word and PowerPoint, listed as technical skills in my CV.">Microsoft Office</button>
+            </div>
+            <div><h3 class="mono">Methodologies</h3>
+              <button data-e="Two Scrum teams through 21 sprints on the Telkomsel Digital World project.">Agile</button>
+              <button data-e="Listed as a methodology in my CV, alongside Agile.">Waterfall</button>
+            </div>
+          </div>
+          <aside class="skills__panel" aria-live="polite">
+            <p class="mono">Evidence</p>
+            <p class="skills__name" id="skillName">Project Governance</p>
+            <p id="skillText">Ensuring fully signed BRD, UAT and TAT documents, and standardizing templates.</p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT -->
+    <section class="sec sec--cherry" id="impact">
+      <div class="wrap">
+        <p class="label reveal"><span>05</span> Achievements &amp; Impact</p>
+        <h2 class="display reveal">The record, <em>in numbers</em>.</h2>
+        <div class="ledger">
+          <div class="reveal"><p class="num" data-count="243">243</p><h3>Projects tracked</h3><p class="mono">PT Mandiri Utama Finance · Aug 2025 – Present</p></div>
+          <div class="reveal"><p class="num" data-count="25" data-suffix="+">25+</p><h3>Custom eazyBI reports</h3><p class="mono">PT Mandiri Utama Finance · Aug 2025 – Present</p></div>
+          <div class="reveal"><p class="num" data-count="21">21</p><h3>Sprints completed, as a contributor</h3><p class="mono">PT Phincon · Feb 2023 – Feb 2024</p></div>
+          <div class="reveal"><p class="num" data-count="90">90</p><h3>Proposal decks developed</h3><p class="mono">BERT's · Jul 2024 – May 2025</p></div>
+          <div class="reveal"><p class="num" data-count="12">12</p><h3>Deals closed, as a contributor</h3><p class="mono">BERT's · Jul 2024 – May 2025</p></div>
+          <div class="reveal"><p class="num" data-count="89" data-prefix="IDR " data-suffix="M">IDR 89M</p><h3>Total revenue from those 12 deals</h3><p class="mono">BERT's · Jul 2024 – May 2025</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="sec sec--ivory sec--tight" id="education">
+      <div class="wrap edu reveal">
+        <p class="label"><span>06</span> Education</p>
+        <div>
+          <h2>Bachelor's Degree in Business Management</h2>
+          <p>Universitas Bina Nusantara · September 2020 – July 2024</p>
+        </div>
+        <p class="edu__gpa"><strong>3.79</strong><span class="mono">Cumulative GPA / 4.00</span></p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="sec contact" id="contact">
+      <div class="wrap">
+        <p class="label reveal"><span>07</span> Contact</p>
+        <h2 class="contact__title reveal">Let's talk about <em>your next project</em>.</h2>
+        <ul class="contact__links reveal">
+          <li><span class="mono">Email</span><a href="mailto:afrinazf@gmail.com">afrinazf@gmail.com</a></li>
+          <li><span class="mono">LinkedIn</span><a href="https://www.linkedin.com/in/afrinazfr/" target="_blank" rel="noopener">linkedin.com/in/afrinazfr</a></li>
+          <li><span class="mono">Resume</span><a href="assets/Afrina-Zhafirah-Resume.pdf" download>Download PDF</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap mono"><span>Afrina Zhafirah</span><span>Jakarta, Indonesia</span><a href="#top">Back to top</a></div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
