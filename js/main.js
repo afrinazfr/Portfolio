@@ -90,20 +90,6 @@
   }, { threshold: 0.12 });
   $$('.reveal').forEach(function (el) { seen.observe(el); });
 
-  /* Project filter */
-  var filters = $$('[data-filter]');
-  var cases = $$('#cases .case');
-  filters.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      filters.forEach(function (b) { b.setAttribute('aria-pressed', String(b === btn)); });
-      var f = btn.dataset.filter;
-      cases.forEach(function (c) {
-        c.hidden = f !== 'all' && c.dataset.cat.split(' ').indexOf(f) === -1;
-        c.classList.add('is-in');
-      });
-    });
-  });
-
   /* Skill evidence */
   var skills = $$('#skillGroups button');
   function pick(btn) {
