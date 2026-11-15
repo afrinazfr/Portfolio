@@ -300,7 +300,8 @@ em { font-style: italic; }
 .hero__lines .nodes circle { fill: #e7dfe0; }
 .hero__top { position: relative; }
 .hero__name, .portrait { position: relative; z-index: 1; }
-.chrome { position: absolute; z-index: 0; left: 43%; top: -9%; width: min(34vw, 62vh); height: auto; filter: drop-shadow(0 24px 40px rgba(20, 4, 10, .55)); animation: float 11s ease-in-out infinite; }
+.hero__foot { position: relative; z-index: 2; }
+.chrome { position: absolute; z-index: 0; left: 40%; top: -12%; width: min(22vw, 40vh); height: auto; filter: drop-shadow(0 24px 40px rgba(20, 4, 10, .55)); animation: float 11s ease-in-out infinite; }
 @keyframes float { 50% { transform: translateY(-9px) rotate(1.2deg); } }
 
 .sec--ivory::before { opacity: .15; background-image: var(--grain); }
@@ -344,7 +345,7 @@ em { font-style: italic; }
 
 @media (max-width: 680px) {
   #experience .gantt__name { background: var(--ivory); }
-  .chrome { left: auto; right: -14%; top: auto; bottom: -6%; width: 62vw; }
+  .chrome { left: auto; right: 2%; top: auto; bottom: -4%; width: 44vw; }
   .hero::before { background-size: 56px 56px; }
 }
 
